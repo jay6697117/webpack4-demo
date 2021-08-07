@@ -1,5 +1,5 @@
 # 地址
-### juejin: <https://juejin.cn/post/6844903599080734728#heading-16>
+### juejin: <https://juejin.cn/post/6844903599080734728>
 ### github: <https://github.com/chenhongdong/article/tree/master/webpack4>
 
 # 笔记
