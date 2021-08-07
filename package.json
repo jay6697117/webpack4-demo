@@ -2,12 +2,14 @@
   "name": "webpack4-demo",
   "version": "1.0.0",
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server",
-    "build": "rm -rf dist && NODE_ENV=production webpack"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack"
   },
   "dependencies": {},
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "html-webpack-plugin": "^4.5.0",
+    "rimraf": "^3.0.2",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2"
